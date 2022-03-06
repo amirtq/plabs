@@ -1,3 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://www.plabs.pro/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Professional Labs for Pros'
+publishDir = "docs"
