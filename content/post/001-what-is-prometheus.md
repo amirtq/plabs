@@ -21,5 +21,5 @@ series: [Prometheus Monitoring]
 # comment: false # Disable comment if false.
 ---
 
-**In this video, I will introduce Prometheus and its capabilities**
+**In this video, I will introduce Prometheus and it's capabilities**
 {{< youtube bt9sTxgr_PI >}}
