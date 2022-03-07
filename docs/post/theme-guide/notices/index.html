@@ -1,8 +1,8 @@
 
 <!DOCTYPE html>
-<html lang="en" data-figures="">
+<html lang="en" data-figures="" class="page">
   <head>
-<title>Monitoring | Professional Labs for Pros</title>
+<title>Using Notices | Professional Labs for Pros</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,24 +14,24 @@
   gtag('config', 'XXXXXXXXXX');
 </script>
 
+  
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="">
+<meta name="description" content="Using Notices functionality withhin this theme">
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:creator" content="@AmirFouladvand">
-<meta name="twitter:title" content="Monitoring" />
-<meta property="og:url" content="https://www.plabs.pro/categories/monitoring/" />
-<meta property="og:title" content="Monitoring" />
-<meta property="og:description" content="" />
+<meta name="twitter:title" content="Using Notices" />
+<meta property="og:url" content="https://www.plabs.pro/post/theme-guide/notices/" />
+<meta property="og:title" content="Using Notices" />
+<meta property="og:description" content="Using Notices functionality withhin this theme" />
 <meta property="og:image" content="https://www.plabs.pro/images/thumbnail.png" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.plabs.pro/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.plabs.pro/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.plabs.pro/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.plabs.pro/categories/monitoring/">
-<link rel="alternate" type="application/rss+xml" href="https://www.plabs.pro/categories/monitoring/index.xml" title="Professional Labs for Pros" />
+<link rel="canonical" href="https://www.plabs.pro/post/theme-guide/notices/">
 
     
 
@@ -107,36 +107,26 @@
 </header>
 
     <main>
-
+  
 <div class="grid-inverse wrap content">
-  <ul class="posts" id="posts">
-      <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.plabs.pro/post/001-what-is-prometheus/" title="What is Prometheus">What is Prometheus</a>
-      </h3>
-      
+  <article class="post_content">
+    <h1 class="post_title">Using Notices</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <use xlink:href="#calendar"></use>
 </svg></span>
     <span class="post_date">
-      Apr 8, 2021</span>
-    <span class="post_time"> · 1 min read</span><span>&nbsp;· <a href='https://www.plabs.pro/tags/prometheus' title="prometheus" class="post_tag button button_translucent">prometheus
-        </a><a href='https://www.plabs.pro/tags/monitoring' title="monitoring" class="post_tag button button_translucent">monitoring
-        </a><a href='https://www.plabs.pro/tags/network-monitoring' title="network monitoring" class="post_tag button button_translucent">network monitoring
-        </a>
-    </span>
+      Aug 20, 2020</span>
+    <span class="post_time"> · 2 min read</span>
     <span class="page_only">&nbsp;·
   <div class="post_share">
     Share on:
-    <a href="https://twitter.com/intent/tweet?text=What%20is%20Prometheus&url=https%3a%2f%2fwww.plabs.pro%2fpost%2f001-what-is-prometheus%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
+    <a href="https://twitter.com/intent/tweet?text=Using%20Notices&url=https%3a%2f%2fwww.plabs.pro%2fpost%2ftheme-guide%2fnotices%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
       <svg class="icon">
   <use xlink:href="#twitter"></use>
 </svg>
     </a>
-    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.plabs.pro%2fpost%2f001-what-is-prometheus%2f&t=What%20is%20Prometheus" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
+    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.plabs.pro%2fpost%2ftheme-guide%2fnotices%2f&t=Using%20Notices" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
       <svg class="icon">
   <use xlink:href="#facebook"></use>
 </svg>
@@ -146,7 +136,7 @@
   <use xlink:href="#linkedin"></use>
 </svg>
     </a>
-    <a href="https://www.plabs.pro/post/001-what-is-prometheus/" title="Copy Link" class="link link_yank">
+    <a href="https://www.plabs.pro/post/theme-guide/notices/" title="Copy Link" class="link link_yank">
       <svg class="icon">
   <use xlink:href="#copy"></use>
 </svg>
@@ -155,77 +145,162 @@
   </span>
   </div>
 
-    </div>
-    <div class="excerpt_footer partition">
 
-      
-      
-      
-      
-      
-      
-<div class="excerpt_thumbnail">
+
+
+    
+    <div class="post_body"><p>The &quot;Notices&quot; shortcode enables you to call out pieces of information - sidebars, warnings, tips, etc.</p>
+<p>To create a notice on a page, you can use the <code>notice</code> shortcode.<br>
+You use the <code>notice</code> shortcode, with the first parameter being one of <code>note</code>, <code>info</code>, <code>tip</code>, and <code>warning</code>.  Then add a title for your
+note in quotes as the second parameter.  The inner body of the note can be whatever markdown you want to create.</p>
+<p>The following shortcode syntax within a markdown doc:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">{{% notice note &#34;Note&#34; %}}
+</span></span><span class="line"><span class="ln">2</span><span class="cl">This is a standard &#34;note&#34; style.
+</span></span><span class="line"><span class="ln">3</span><span class="cl">{{% /notice %}}
+</span></span></code></pre></div><p>will render as:</p>
+
+<div class="notices note">
+    <div class="label">Note</div>
+    <p>This is a standard &quot;note&quot; style.</p>
+
+  </div>
+
+<p>The other three variants follow.</p>
+
+<div class="notices info">
+    <div class="label">Info</div>
+    <p>Here is the &quot;info&quot; style.</p>
+
+  </div>
+
+
+<div class="notices tip">
+    <div class="label">Tip</div>
+    <p>Here is a &quot;tip&quot; variant of a notice.</p>
+
+  </div>
+
+
+<div class="notices warning">
+    <div class="label">Warning</div>
+    <p>Here is the &quot;warning&quot; flavor of a notice.</p>
+
+  </div>
+
+<p>Also note that the content of a notice can contain anything you could put on a normal page - as shown below:</p>
+
+<div class="notices tip">
+    <div class="label">Complex Notices are Possible!</div>
+    <p>This is a notice that has a lot of various kinds of content in it.</p>
+<ul>
+<li>Here is a bulleted list</li>
+<li>With more than one bullet
+<ul>
+<li>And even more than one level</li>
+</ul>
+</li>
+</ul>
+<p>Code blocks are fine here, too....</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="ln">1</span><span class="cl"><span class="k">public</span> <span class="k">void</span> <span class="n">SayHello</span><span class="p">()</span>
+</span></span><span class="line"><span class="ln">2</span><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="ln">3</span><span class="cl">    <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&#34;Hello, world!&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="ln">4</span><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div>
+  </div>
+
+
+<div class="notices tip">
+    <div class="label">Productivity Booster!</div>
+    <p>If you're using VS Code for your editing, copy the <code>.vscode\clarity.code-snippets</code> file into a <code>.vscode</code> root folder on your repo.  This will enable you to type
+<code>note</code> then <code>&lt;tab&gt;</code> then choose with up/down arrows which flavor notice you want, then <code>&lt;tab&gt;</code> again to provide a title, then <code>&lt;tab&gt;</code> to add your content!</p>
+<p>
+
+
+
+
+
+<figure>
   <picture>
 
     
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
       
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-      
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
       
 
-      <img class="image_thumbnail image_internal" src="https://www.plabs.pro/images/prometheus-trainings/001-what-is-prometheus.png" alt="What is Prometheus" loading="lazy" decoding="async" width="1280" height="960" /></picture>
+      
+
+        
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        
+
+        <img class="image_figure image_internal" src="https://www.plabs.pro/images/Note-Snippet.gif" alt="" loading="lazy" decoding="async" width="1920" height="1080"  />
+    
+
+  </picture>
+</figure>
+</p>
+<p>To use the snippet, you need to first <strong>enable quickSuggestions for Markdown</strong> (one time only):</p>
+<ol>
+<li>Go to <code>Preferences-&gt;Settings</code> then search for <code>quickSuggestions</code></li>
+<li>Follow the link to Edit in settings.json</li>
+<li>Toward the bottom of the file, paste in the following JSON:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="ln">1</span><span class="cl">&#34;[markdown]&#34;:  {
+</span></span><span class="line"><span class="ln">2</span><span class="cl">    &#34;editor.quickSuggestions&#34;: true
+</span></span><span class="line"><span class="ln">3</span><span class="cl">  }
+</span></span></code></pre></div><ol start="4">
+<li>Close and save the settings.</li>
+</ol>
+
+  </div>
+
+
+    </div>
+<div class="post_comments">
+  
+  
+  
 </div>
 
-      
-        <div class="pale">
-          
-            <p>In this video, I will introduce Prometheus and its capabilities   </p>
-          
-          <br>
-          <a href="https://www.plabs.pro/post/001-what-is-prometheus/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
 
-    <li>
-    </li>
-  </ul>
+
+  </article>
 <aside class="sidebar">
   <section class="sidebar_inner">
         <h2>Plabs Team</h2>
@@ -246,9 +321,6 @@
     <ul class="flex-column">
       <li>
         <a href="https://www.plabs.pro/post/001-what-is-prometheus/" class="nav-link" title="What is Prometheus">What is Prometheus</a>
-      </li>
-      <li>
-        <a href="https://www.plabs.pro/post/theme-guide/notices/" class="nav-link" title="Using Notices">Using Notices</a>
       </li>
       <li>
         <a href="https://www.plabs.pro/post/theme-guide/rich-content/" class="nav-link" title="Rich Content">Rich Content</a>
@@ -317,9 +389,8 @@
   </section>
 </aside>
 
+  
 </div>
-
-
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>

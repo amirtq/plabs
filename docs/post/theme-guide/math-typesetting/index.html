@@ -1,8 +1,8 @@
 
 <!DOCTYPE html>
-<html lang="en" data-figures="">
+<html lang="en" data-figures="" class="page">
   <head>
-<title>Monitoring | Professional Labs for Pros</title>
+<title>Math Typesetting | Professional Labs for Pros</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,24 +14,24 @@
   gtag('config', 'XXXXXXXXXX');
 </script>
 
+  
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="">
+<meta name="description" content="A brief guide to setup KaTeX">
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:creator" content="@AmirFouladvand">
-<meta name="twitter:title" content="Monitoring" />
-<meta property="og:url" content="https://www.plabs.pro/categories/monitoring/" />
-<meta property="og:title" content="Monitoring" />
-<meta property="og:description" content="" />
+<meta name="twitter:title" content="Math Typesetting" />
+<meta property="og:url" content="https://www.plabs.pro/post/theme-guide/math-typesetting/" />
+<meta property="og:title" content="Math Typesetting" />
+<meta property="og:description" content="A brief guide to setup KaTeX" />
 <meta property="og:image" content="https://www.plabs.pro/images/thumbnail.png" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.plabs.pro/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.plabs.pro/icons/favicon-32x32.png">
 <link rel="manifest" href="https://www.plabs.pro/icons/site.webmanifest">
 
-<link rel="canonical" href="https://www.plabs.pro/categories/monitoring/">
-<link rel="alternate" type="application/rss+xml" href="https://www.plabs.pro/categories/monitoring/index.xml" title="Professional Labs for Pros" />
+<link rel="canonical" href="https://www.plabs.pro/post/theme-guide/math-typesetting/">
 
     
 
@@ -107,36 +107,26 @@
 </header>
 
     <main>
-
+  
 <div class="grid-inverse wrap content">
-  <ul class="posts" id="posts">
-      <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
-      <h3 class="post_link">
-        <a href="https://www.plabs.pro/post/001-what-is-prometheus/" title="What is Prometheus">What is Prometheus</a>
-      </h3>
-      
+  <article class="post_content">
+    <h1 class="post_title">Math Typesetting</h1>
   <div class="post_meta">
     <span><svg class="icon">
   <use xlink:href="#calendar"></use>
 </svg></span>
     <span class="post_date">
-      Apr 8, 2021</span>
-    <span class="post_time"> · 1 min read</span><span>&nbsp;· <a href='https://www.plabs.pro/tags/prometheus' title="prometheus" class="post_tag button button_translucent">prometheus
-        </a><a href='https://www.plabs.pro/tags/monitoring' title="monitoring" class="post_tag button button_translucent">monitoring
-        </a><a href='https://www.plabs.pro/tags/network-monitoring' title="network monitoring" class="post_tag button button_translucent">network monitoring
-        </a>
-    </span>
+      Mar 8, 2019</span>
+    <span class="post_time"> · 1 min read</span>
     <span class="page_only">&nbsp;·
   <div class="post_share">
     Share on:
-    <a href="https://twitter.com/intent/tweet?text=What%20is%20Prometheus&url=https%3a%2f%2fwww.plabs.pro%2fpost%2f001-what-is-prometheus%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
+    <a href="https://twitter.com/intent/tweet?text=Math%20Typesetting&url=https%3a%2f%2fwww.plabs.pro%2fpost%2ftheme-guide%2fmath-typesetting%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
       <svg class="icon">
   <use xlink:href="#twitter"></use>
 </svg>
     </a>
-    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.plabs.pro%2fpost%2f001-what-is-prometheus%2f&t=What%20is%20Prometheus" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
+    <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.plabs.pro%2fpost%2ftheme-guide%2fmath-typesetting%2f&t=Math%20Typesetting" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
       <svg class="icon">
   <use xlink:href="#facebook"></use>
 </svg>
@@ -146,7 +136,7 @@
   <use xlink:href="#linkedin"></use>
 </svg>
     </a>
-    <a href="https://www.plabs.pro/post/001-what-is-prometheus/" title="Copy Link" class="link link_yank">
+    <a href="https://www.plabs.pro/post/theme-guide/math-typesetting/" title="Copy Link" class="link link_yank">
       <svg class="icon">
   <use xlink:href="#copy"></use>
 </svg>
@@ -155,77 +145,42 @@
   </span>
   </div>
 
-    </div>
-    <div class="excerpt_footer partition">
 
-      
-      
-      
-      
-      
-      
-<div class="excerpt_thumbnail">
-  <picture>
+
 
     
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-      
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-      
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-      
+    <div class="post_body"><p>Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.</p>
+<p>In this example we will be using <a href="https://katex.org/">KaTeX</a></p>
+<ul>
+<li>Create a partial under <code>/layouts/partials/math.html</code></li>
+<li>Within this partial reference the <a href="https://katex.org/docs/autorender.html">Auto-render Extension</a> or host these scripts locally.</li>
+<li>Include the partial in your templates like so:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="ln">1</span><span class="cl"><span class="o">{{</span> <span class="k">if</span> or .Params.math .Site.Params.math <span class="o">}}</span>
+</span></span><span class="line"><span class="ln">2</span><span class="cl"><span class="o">{{</span> partial <span class="s2">&#34;math.html&#34;</span> . <span class="o">}}</span>
+</span></span><span class="line"><span class="ln">3</span><span class="cl"><span class="o">{{</span> end <span class="o">}}</span>
+</span></span></code></pre></div><ul>
+<li>To enable KaTex globally set the parameter <code>math</code> to <code>true</code> in a project's configuration</li>
+<li>To enable KaTex on a per page basis include the parameter <code>math: true</code> in content files</li>
+</ul>
+<p><strong>Note:</strong> Use the online reference of <a href="https://katex.org/docs/supported.html">Supported TeX Functions</a></p>
 
-      <img class="image_thumbnail image_internal" src="https://www.plabs.pro/images/prometheus-trainings/001-what-is-prometheus.png" alt="What is Prometheus" loading="lazy" decoding="async" width="1280" height="960" /></picture>
+<h3 id="examples">Examples</h3>
+
+<p>Block math:
+$$
+\varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
+$$</p>
+    </div>
+<div class="post_comments">
+  
+  
+  
 </div>
 
-      
-        <div class="pale">
-          
-            <p>In this video, I will introduce Prometheus and its capabilities   </p>
-          
-          <br>
-          <a href="https://www.plabs.pro/post/001-what-is-prometheus/" title="Read More" class="excerpt_more button">Read More</a>
-        </div>
-      </div>
-    </div>
-  </li>
 
-    <li>
-    </li>
-  </ul>
+
+  </article>
 <aside class="sidebar">
   <section class="sidebar_inner">
         <h2>Plabs Team</h2>
@@ -255,9 +210,6 @@
       </li>
       <li>
         <a href="https://www.plabs.pro/post/theme-guide/placeholder-text/" class="nav-link" title="Placeholder Text">Placeholder Text</a>
-      </li>
-      <li>
-        <a href="https://www.plabs.pro/post/theme-guide/math-typesetting/" class="nav-link" title="Math Typesetting">Math Typesetting</a>
       </li>
       <li>
         <a href="https://www.plabs.pro/post/theme-guide/emoji-support/" class="nav-link" title="Emoji Support">Emoji Support</a>
@@ -317,9 +269,8 @@
   </section>
 </aside>
 
+  
 </div>
-
-
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>
