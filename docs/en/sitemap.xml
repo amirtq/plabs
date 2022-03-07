@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.plabs.pro/</loc>
-    <lastmod>2022-03-06T23:14:18+03:30</lastmod>
+    <lastmod>2022-03-07T10:55:59+03:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
@@ -15,10 +15,13 @@
                 href="https://www.plabs.pro/"
                 />
   </url><url>
-    <loc>https://www.plabs.pro/posts/amir/</loc>
-    <lastmod>2022-03-06T23:14:18+03:30</lastmod>
+    <loc>https://www.plabs.pro/posts/amirmas/</loc>
+    <lastmod>2022-03-07T10:55:59+03:30</lastmod>
   </url><url>
     <loc>https://www.plabs.pro/posts/</loc>
+    <lastmod>2022-03-07T10:55:59+03:30</lastmod>
+  </url><url>
+    <loc>https://www.plabs.pro/posts/amir/</loc>
     <lastmod>2022-03-06T23:14:18+03:30</lastmod>
   </url><url>
     <loc>https://www.plabs.pro/post/</loc>
