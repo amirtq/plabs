@@ -15,7 +15,7 @@
   weight = -108
 [[main]]
   parent = "Links"
-  name = "Yotube Channel"
+  name = "Youtube Channel"
   url = "https://www.youtube.com/c/plabsforpros"
 [[main]]
   parent = "Links"
