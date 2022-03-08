@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Professional Labs for Pros</title>
+    <link>https://www.plabs.pro/</link>
+    <description>Recent content on Professional Labs for Pros</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Fri, 16 Apr 2021 16:54:03 +0330</lastBuildDate><atom:link href="https://www.plabs.pro/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install and harden Prometheus</title>
+      <link>https://www.plabs.pro/post/002-install-configure-prometheus/</link>
+      <pubDate>Fri, 16 Apr 2021 16:54:03 +0330</pubDate>
+      
+      <guid>https://www.plabs.pro/post/002-install-configure-prometheus/</guid>
+      <description>
+        
+          
+            &lt;h2 id=&#34;in-this-video-i-will-train-you-install-and-harden-prometheus-server&#34;&gt;In this video, I will train you install and harden Prometheus server&lt;/h2&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>How to obtain free SSL Certificate</title>
+      <link>https://www.plabs.pro/post/001-how-to-obtain-free-ssl-cert/</link>
+      <pubDate>Thu, 08 Apr 2021 16:54:03 +0330</pubDate>
+      
+      <guid>https://www.plabs.pro/post/001-how-to-obtain-free-ssl-cert/</guid>
+      <description>
+        
+          
+            &lt;h2 id=&#34;in-this-video-i-will-train-you-to-obtain-free-ssl-certificate&#34;&gt;In this video, I will train you to obtain free SSL certificate&lt;/h2&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>What is Prometheus</title>
+      <link>https://www.plabs.pro/post/000-what-is-prometheus/</link>
+      <pubDate>Thu, 08 Apr 2021 16:54:03 +0330</pubDate>
+      
+      <guid>https://www.plabs.pro/post/000-what-is-prometheus/</guid>
+      <description>
+        
+          
+            &lt;h2 id=&#34;in-this-video-i-will-introduce-prometheus-and-its-capabilities&#34;&gt;In this video, I will introduce Prometheus and it&#39;s capabilities&lt;/h2&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
